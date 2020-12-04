@@ -1,0 +1,53 @@
+﻿{
+    "UserName": "kavish",
+    "Email": "call.kavish@gmail.com",
+    "FullName": "Kavish gautam",
+    "Password" :"1234"	
+}
+{
+    "UserName": "kavish",
+    "Password" :"1234"	
+}
+update-database -Context AuthenticationContext
+SQL connection:DESKTOP-12FSL5U
+
+
+http://localhost:55000/api/meetings
+========================================================
+Meeting Management System 
+AppName: MeetingManagementSystem
+========================================================
+1. DB Migration commands
+========================================================
+add-migration MyMigration -Context AuthenticationContext
+add-migration MyMigration -Context MeetingContext
+update-database -Context AuthenticationContext
+update-database -Context MeetingContext
+========================================================
+2. CoreWebAPI Url:
+========================================================
+http://localhost:33000/api/ApplicationUser/Login
+http://localhost:33000/api/Meeting
+http://localhost:33000/api/Meeting/2
+========================================================
+3. ClientAPI url:
+========================================================
+http://localhost:55000/home
+========================================================
+4. Github repository:
+========================================================
+https://github.com/burman2005/Core3MeetingApplication
+https://github.com/burman2005/Core3MeetingApplication.git
+========================================================
+
+1. npm install ngx-bootstrap --save
+
+http://localhost:44000/api/Meeting
+
+
+
+
+
+
+
+
